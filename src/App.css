@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  color: white;
+  font-size: 20px;
+}
+
+@media all and (min-width: 1200px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+  .img {
+    overflow: hidden;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    position: absolute;
+    font-size: 50px;
+    font-family: "Comfortaa";
+    color: white;
+  }
+  header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 49, 49);
+    align-items: center;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+  }
+  .time {
+    width: 95%;
+    margin-right: 40px;
+    text-align: right;
+  }
+  input {
+    font-family: "Comfortaa";
+    margin-left: 45px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border:none;
+    border-radius: 10px;
+  }
+}
+
+@media all and (max-width: 1199px) {
+  .main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .img {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text {
+    position: absolute;
+    font-size: 25px;
+    font-family: "Comfortaa";
+    color: white;
+  }
+  img {
+    object-fit: cover;
+  }
+  .logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+  }
+  header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(51, 49, 49);
+    align-items: center;
+  }
+  .time {
+    font-size: 0px;
+  }
+  input{
+    width: 200px;
+    font-family: "Comfortaa";
+    margin-left: 45px;
+    background-color: rgb(112, 112, 112);
+    color: white;
+    border:none;
+    border-radius: 10px;
+  }
+}
